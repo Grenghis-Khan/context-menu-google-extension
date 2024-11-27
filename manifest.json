@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Google Context Menu Search",
+  "version": "1.0",
+  "description": "Add a context menu option for Google when it's not the default search.",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
